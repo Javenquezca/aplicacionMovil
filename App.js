@@ -4,7 +4,7 @@ import { StyleSheet } from "react-native";
 export default function App() {
     return (
         <View>
-            <Text>Hola desde App.js</Text>
+            <Text>Nueva linea de txt 😎😎</Text>
             <StatusBar style="auto"/>
         </View>
     )
