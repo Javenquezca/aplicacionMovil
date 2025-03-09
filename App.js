@@ -1,15 +1,12 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet } from "react-native";
+import React from 'react';
+import { AppNavigator } from './src/navegation/AppNavigator';
+import { NavigationContainer } from '@react-navigation/native';
+
 
 export default function App() {
-    return (
-        <View>
-            <Text>Nueva linea de txt 😎😎</Text>
-            <StatusBar style="auto"/>
-        </View>
-    )
+  return (
+   <NavigationContainer>
+      <AppNavigator/>   
+   </NavigationContainer>
+  );
 }
-
-const styles = StyleSheet.create({
-
-});
